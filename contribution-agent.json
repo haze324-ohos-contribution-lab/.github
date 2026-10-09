@@ -1,0 +1,15 @@
+{
+  "description": "HarmonyOS adaptation of {libraryName}",
+  "defaultBranch": "main",
+  "directories": [
+    "src/",
+    "tests/",
+    "README.md",
+    "LICENSE",
+    "oh-package.json5",
+    "adaptation-report.md"
+  ],
+  "commitMessage": "feat: adapt {libraryName} to HarmonyOS",
+  "prTitle": "feat: adapt {libraryName} to HarmonyOS",
+  "prBody": "## 变更说明\n将 {libraryName} 适配到 HarmonyOS。\n\n## 原始库信息\n来源：{sourceUrl}\n\n## 本次变更\n- HarmonyOS 适配源码\n- 配置和说明文档\n- 适配报告\n\n## 验证情况\n请核对编译和测试结果。\n\n## 已知问题\n请核对 License、测试覆盖率和平台差异。"
+}
